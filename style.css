@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+}
+
+.sidebar {
+  background: linear-gradient(to bottom, #8f87f1, #e9a5f1);
+  color: white;
+  padding: 2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 20%;
+  overflow-y: auto;
+  text-align: center;
+}
+
+.sidebar img {
+  border-radius: 50%;
+  border: 5px solid #4d55cc;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.sidebar h5 {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.sidebar p {
+  margin: 0.8rem 0;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.content {
+  margin-left: 20%;
+  padding: 3rem;
+}
+
+.name-highlight,
+#contact-title {
+  color: #8f87f1;
+}
+
+.social-icons i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+section {
+  height: 100vh;
+}
+
+h2 {
+  border-bottom: 2px solid #4d55cc;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background: linear-gradient(to right, #8f87f1, #e9a5f1);
+  color: white;
+}
+
+#msg-button {
+  background-color: #8f87f1;
+}
+
+.hover-scale {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+  color: #0056b3 !important;
+}
