@@ -77,3 +77,9 @@ h2 {
   transform: scale(1.05);
   color: #0056b3 !important;
 }
+
+@media (max-width: 576px) {
+  .section {
+      min-height: 50vh;
+  }
+}
